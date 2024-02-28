@@ -2,10 +2,10 @@ let myImage = document.querySelector("img");
 
 myImage.addEventListener("click", function() {
     let mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/firefox-icon.jpeg") {
-        myImage.setAttribute("src", "images/tissu-ndop.jpeg");
+    if (mySrc === "firefox-icon.jpeg") {
+        myImage.setAttribute("src", "tissu-ndop.jpeg");
     } else {
-        myImage.setAttribute("src", "images/firefox-icon.jpeg");
+        myImage.setAttribute("src", "firefox-icon.jpeg");
     }
 });
 
